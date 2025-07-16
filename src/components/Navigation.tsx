@@ -44,8 +44,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">
-            Portfolio
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/dfe37cd8-c7b0-42a1-86ad-5f6d9bbf6eb5.png" 
+              alt="Watty Eventice Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
