@@ -19,10 +19,18 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    
+    // Create mailto link with form data
+    const mailtoLink = `mailto:wattysamuel@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    )}`;
+    
+    // Open default email client
+    window.location.href = mailtoLink;
+    
+    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
+    alert('Thank you for your message! Your email client will open to send the message.');
   };
 
   const contactInfo = [

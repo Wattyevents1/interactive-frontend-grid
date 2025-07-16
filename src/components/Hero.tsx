@@ -63,13 +63,13 @@ const Hero = () => {
           <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
             <img 
               src="/lovable-uploads/216bf01c-8aba-438b-869a-33c0244aaa04.png" 
-              alt="Watthy Eventice" 
+              alt="Watty Eventice" 
               className="w-full h-full object-cover"
             />
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 scroll-reveal">
-            Hi, I'm <span className="text-accent">Watthy Eventice</span>
+            Hi, I'm <span className="text-accent">Watty Eventice</span>
           </h1>
 
           <div className="text-xl md:text-2xl mb-8 h-8 scroll-reveal">

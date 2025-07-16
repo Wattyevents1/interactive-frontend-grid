@@ -38,7 +38,7 @@ const About = () => {
               <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-accent shadow-lg">
                 <img 
                   src="/lovable-uploads/216bf01c-8aba-438b-869a-33c0244aaa04.png" 
-                  alt="Watthy Eventice" 
+                  alt="Watty Eventice" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -58,10 +58,14 @@ const About = () => {
                 open-source projects, or sharing knowledge with the developer community.
               </p>
               
-              <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary-hover transition-colors inline-flex items-center gap-2">
+              <a 
+                href="/resume-watty-eventice.pdf" 
+                download="Watty_Eventice_Resume.pdf"
+                className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary-hover transition-colors inline-flex items-center gap-2"
+              >
                 <Download size={20} />
                 Download Resume
-              </button>
+              </a>
             </div>
           </div>
 

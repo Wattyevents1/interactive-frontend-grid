@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">John Doe</h3>
+            <h3 className="text-2xl font-bold mb-4">Watty Eventice</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               Frontend Developer passionate about creating beautiful, functional web experiences. 
               Let's build something amazing together.
@@ -86,9 +86,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>john.doe@email.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>wattysamuel@gmail.com</p>
+              <p>+256 780 814 824</p>
+              <p>Entebbe, Uganda</p>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/80 text-sm">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Watty Eventice. All Rights Reserved.
             </p>
             <div className="flex items-center gap-1 text-primary-foreground/80 text-sm">
               Made with 
