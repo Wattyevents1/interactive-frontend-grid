@@ -35,8 +35,12 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="scroll-reveal">
-              <div className="w-64 h-64 mx-auto bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center text-white text-6xl font-bold">
-                JD
+              <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-accent shadow-lg">
+                <img 
+                  src="/lovable-uploads/216bf01c-8aba-438b-869a-33c0244aaa04.png" 
+                  alt="Watthy Eventice" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
