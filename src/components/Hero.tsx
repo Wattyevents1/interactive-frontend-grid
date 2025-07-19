@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
-import heroImage from '../assets/hero-image.jpg';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
@@ -47,25 +46,12 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative">
       {/* Background with overlay */}
       <div className="absolute inset-0 hero-gradient"></div>
-      <div 
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      ></div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center text-white">
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
-            <img 
-              src="/lovable-uploads/216bf01c-8aba-438b-869a-33c0244aaa04.png" 
-              alt="Watty Eventice" 
-              className="w-full h-full object-cover"
-            />
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white/30 shadow-lg bg-white/20 flex items-center justify-center">
+            <span className="text-4xl font-bold text-white">W</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 scroll-reveal">
