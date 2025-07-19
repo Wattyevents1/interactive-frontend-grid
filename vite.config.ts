@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: mode === 'production' ? '/your-repo-name/' : '/',
+  base: mode === 'production' ? '/portfolio-watty/' : '/',
   plugins: [
     react(),
     mode === 'development' &&
