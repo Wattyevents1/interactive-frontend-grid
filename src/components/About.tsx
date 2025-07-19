@@ -58,6 +58,15 @@ const About = () => {
                 open-source projects, or sharing knowledge with the developer community.
               </p>
               
+              {/* Resume Preview */}
+              <div className="mb-6">
+                <img 
+                  src="/lovable-uploads/bd43c62f-6994-4457-8f0f-97da7a8c6512.png" 
+                  alt="Watty Eventice Resume Preview" 
+                  className="w-full max-w-md mx-auto rounded-lg shadow-lg border border-border"
+                />
+              </div>
+              
               <a 
                 href="/resume-watty-eventice.pdf" 
                 download="Watty_Eventice_Resume.pdf"
