@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Music, Camera, Twitter, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -56,22 +56,22 @@ const Contact = () => {
 
   const socialLinks = [
     {
-      icon: <Github className="w-6 h-6" />,
-      name: "GitHub",
-      url: "https://github.com",
-      color: "hover:text-gray-800"
+      icon: <Music className="w-6 h-6" />,
+      name: "TikTok",
+      url: "https://tiktok.com/@watty_ug",
+      color: "hover:text-pink-600"
     },
     {
-      icon: <Linkedin className="w-6 h-6" />,
-      name: "LinkedIn",
-      url: "https://linkedin.com",
-      color: "hover:text-blue-600"
+      icon: <Camera className="w-6 h-6" />,
+      name: "Snapchat",
+      url: "https://snapchat.com/watty_ug",
+      color: "hover:text-yellow-400"
     },
     {
       icon: <Twitter className="w-6 h-6" />,
-      name: "Twitter",
-      url: "https://twitter.com",
-      color: "hover:text-blue-400"
+      name: "X",
+      url: "https://x.com/@watty_ug",
+      color: "hover:text-gray-800"
     }
   ];
 

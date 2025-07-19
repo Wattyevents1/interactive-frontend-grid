@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
+import { Music, Camera, Twitter, Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,19 +14,19 @@ const Footer = () => {
 
   const socialLinks = [
     {
-      icon: <Github className="w-5 h-5" />,
-      name: "GitHub",
-      url: "https://github.com"
+      icon: <Music className="w-5 h-5" />,
+      name: "TikTok",
+      url: "https://tiktok.com/@watty_ug"
     },
     {
-      icon: <Linkedin className="w-5 h-5" />,
-      name: "LinkedIn", 
-      url: "https://linkedin.com"
+      icon: <Camera className="w-5 h-5" />,
+      name: "Snapchat", 
+      url: "https://snapchat.com/watty_ug"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      name: "Twitter",
-      url: "https://twitter.com"
+      name: "X",
+      url: "https://x.com/@watty_ug"
     }
   ];
 
